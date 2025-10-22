@@ -27,7 +27,7 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://hackersarkar12_db_user:RHouCQJpCza1Tu7d@taskmanage.gpur3cc.mongodb.net/?retryWrites=true&w=majority&appName=taskmanage', {
+mongoose.connect('', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
